@@ -4,12 +4,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/firaga/loadgen-helper/v4/log/base"
+	"github.com/firaga/loadgen-helper/v5/log/base"
 )
 
 func TestLogger(t *testing.T) {
 	// Test default logger
-	logger := DLogger()
+	logger := DLogger(1)
 	if logger == nil {
 		t.Fatal("The default logger is invalid!")
 	}

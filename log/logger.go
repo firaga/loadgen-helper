@@ -6,8 +6,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/firaga/loadgen-helper/v4/log/base"
-	"github.com/firaga/loadgen-helper/v4/log/logrus"
+	"github.com/firaga/loadgen-helper/v5/log/base"
+	"github.com/firaga/loadgen-helper/v5/log/logrus"
 )
 
 // LoggerCreator 代表日志记录器的创建器。
@@ -44,7 +44,7 @@ func RegisterLogger(
 }
 
 // DLogger 会返回一个新的默认日志记录器。
-func DLogger() base.MyLogger {
+func DLogger(a int) base.MyLogger {
 	return Logger(
 		base.TYPE_LOGRUS,
 		base.LEVEL_INFO,
