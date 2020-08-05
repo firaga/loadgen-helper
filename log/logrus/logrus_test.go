@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/firaga/loadgen-helper/v3/log/base"
-	"github.com/firaga/loadgen-helper/v3/log/field"
+	"github.com/firaga/loadgen-helper/v4/log/base"
+	"github.com/firaga/loadgen-helper/v4/log/field"
 )
 
 func TestLogrusLogger(t *testing.T) {

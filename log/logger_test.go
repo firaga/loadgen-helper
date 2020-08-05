@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/firaga/loadgen-helper/v3/log/base"
+	"github.com/firaga/loadgen-helper/v4/log/base"
 )
 
 func TestLogger(t *testing.T) {
