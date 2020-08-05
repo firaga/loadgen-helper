@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/firaga/loadgen-helper/v5/log/base"
+	"github.com/firaga2/loadgen-helper/v5/log/base"
 )
 
 // field_decl_template 代表日志字段类型的声明的内容模板。

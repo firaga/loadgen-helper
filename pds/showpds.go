@@ -10,7 +10,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/firaga/loadgen-helper/v5/pkgtool"
+	"github.com/firaga2/loadgen-helper/v5/pkgtool"
 )
 
 // ARROWS 代表有导入关系的代码包之间的分隔符。

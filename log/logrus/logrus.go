@@ -4,8 +4,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/firaga/loadgen-helper/v5/log/base"
-	"github.com/firaga/loadgen-helper/v5/log/field"
+	"github.com/firaga2/loadgen-helper/v5/log/base"
+	"github.com/firaga2/loadgen-helper/v5/log/field"
 
 	"github.com/sirupsen/logrus"
 )

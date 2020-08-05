@@ -6,10 +6,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/firaga/loadgen-helper/v5/log/base"
-	"github.com/firaga/loadgen-helper/v5/log/logrus"
+	"github.com/firaga2/loadgen-helper/v5/log/base"
+	"github.com/firaga2/loadgen-helper/v5/log/logrus"
 )
-type
 // LoggerCreator 代表日志记录器的创建器。
 type LoggerCreator func(
 	level base.LogLevel,
