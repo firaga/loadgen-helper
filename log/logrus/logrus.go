@@ -4,8 +4,8 @@ import (
 	"io"
 	"os"
 
-	"gopcp.v2/helper/log/base"
-	"gopcp.v2/helper/log/field"
+	"github.com/firaga/loadgen-helper/log/base"
+	"github.com/firaga/loadgen-helper/log/field"
 
 	"github.com/sirupsen/logrus"
 )

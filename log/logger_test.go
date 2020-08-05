@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"gopcp.v2/helper/log/base"
+	"github.com/firaga/loadgen-helper/log/base"
 )
 
 func TestLogger(t *testing.T) {
