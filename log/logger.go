@@ -6,8 +6,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/firaga/loadgen-helper/log/base"
-	"github.com/firaga/loadgen-helper/log/logrus"
+	"github.com/firaga/loadgen-helper/v2/log/base"
+	"github.com/firaga/loadgen-helper/v2/log/logrus"
 )
 
 // LoggerCreator 代表日志记录器的创建器。
