@@ -1,4 +1,4 @@
-module github.com/firaga/loadgen-helper
+module github.com/firaga/loadgen-helper/v2
 
 go 1.14
 
