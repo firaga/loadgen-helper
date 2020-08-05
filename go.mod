@@ -1,4 +1,4 @@
-module gopcp.v2/helper
+module github.com/firaga/loadgen-helper
 
 go 1.14
 
